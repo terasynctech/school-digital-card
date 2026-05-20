@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#f4f4f4;
+  font-family:Arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  width:350px;
+  background:white;
+  border-radius:20px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.logo{
+  width:100px;
+  margin-bottom:15px;
+}
+
+h1{
+  color:#003366;
+  margin-bottom:10px;
+}
+
+.tagline{
+  color:gray;
+  margin-bottom:25px;
+}
+
+.info{
+  margin-bottom:20px;
+}
+
+.info h2{
+  color:#003366;
+  margin-bottom:8px;
+}
+
+.info p{
+  margin:5px 0;
+}
+
+.buttons{
+  margin-top:20px;
+}
+
+.btn{
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  padding:12px 20px;
+  border-radius:5px;
+  margin:5px;
+}
+
+.call{
+  background:#003366;
+}
+
+.whatsapp{
+  background:green;
+}
+
+.website{
+  display:block;
+  margin-top:20px;
+  text-decoration:none;
+  color:#003366;
+  font-weight:bold;
+}
+
+.social{
+  margin-top:20px;
+}
+
+.social a{
+  text-decoration:none;
+  margin:0 10px;
+  color:#003366;
+  font-size:14px;
+}
