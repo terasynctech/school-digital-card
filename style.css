@@ -1,91 +1,123 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body{
-  background:#f4f4f4;
-  font-family:Arial;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-}
+<head>
 
-.card{
-  width:350px;
-  background:white;
-  border-radius:20px;
-  padding:30px;
-  text-align:center;
-  box-shadow:0 0 20px rgba(0,0,0,0.2);
-}
+  <meta charset="UTF-8">
 
-.logo{
-  width:100px;
-  margin-bottom:15px;
-}
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-h1{
-  color:#003366;
-  margin-bottom:10px;
-}
+  <title>Bright Future School</title>
 
-.tagline{
-  color:gray;
-  margin-bottom:25px;
-}
+  <link rel="stylesheet"
+        href="style.css">
 
-.info{
-  margin-bottom:20px;
-}
+</head>
 
-.info h2{
-  color:#003366;
-  margin-bottom:8px;
-}
+<body>
 
-.info p{
-  margin:5px 0;
-}
+  <!-- Main Card -->
 
-.buttons{
-  margin-top:20px;
-}
+  <div class="card">
 
-.btn{
-  display:inline-block;
-  text-decoration:none;
-  color:white;
-  padding:12px 20px;
-  border-radius:5px;
-  margin:5px;
-}
+    <!-- Logo -->
 
-.call{
-  background:#003366;
-}
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+         alt="School Logo"
+         class="logo">
 
-.whatsapp{
-  background:green;
-}
+    <!-- School Name -->
 
-.website{
-  display:block;
-  margin-top:20px;
-  text-decoration:none;
-  color:#003366;
-  font-weight:bold;
-}
+    <h1>Bright Future School</h1>
 
-.social{
-  margin-top:20px;
-}
+    <p class="tagline">
+      Excellence In Education
+    </p>
 
-.social a{
-  text-decoration:none;
-  margin:0 10px;
-  color:#003366;
-  font-size:14px;
-}
+    <!-- Principal -->
+
+    <div class="info">
+
+      <h2>Principal</h2>
+
+      <p>Mr. Abdul Rahman</p>
+
+    </div>
+
+    <!-- Contact -->
+
+    <div class="info">
+
+      <h2>Contact</h2>
+
+      <p>📞 +91 91084 17969</p>
+
+      <p>📧 info@school.com</p>
+
+      <p>📍 Ranchi, Jharkhand</p>
+
+    </div>
+
+    <!-- Buttons -->
+
+    <div class="buttons">
+
+      <a href="tel:+919108417969"
+         class="btn call">
+
+         Call Now
+
+      </a>
+
+      <a href="https://wa.me/919108417969"
+         target="_blank"
+         class="btn whatsapp">
+
+         WhatsApp
+
+      </a>
+
+      <a href="https://maps.google.com"
+         target="_blank"
+         class="btn map">
+
+         Location
+
+      </a>
+
+      <a href="#"
+         class="btn admission">
+
+         Admission Open
+
+      </a>
+
+    </div>
+
+    <!-- Website -->
+
+    <a href="#"
+       class="website">
+
+       www.schoolwebsite.com
+
+    </a>
+
+    <!-- Social Media -->
+
+    <div class="social">
+
+      <a href="#">Facebook</a>
+
+      <a href="#">Instagram</a>
+
+      <a href="#">YouTube</a>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
